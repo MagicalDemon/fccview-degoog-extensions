@@ -1,0 +1,29 @@
+{
+  "name": "fccview-degoog-extensions",
+  "description": "Plugins and themes for degoog search.",
+  "author": "fccview",
+  "plugins": [
+    {
+      "path": "plugins/weather",
+      "name": "Weather",
+      "description": "Shows weather information using Open-Meteo.",
+      "version": "1.0.0",
+      "type": "command"
+    },
+    {
+      "path": "plugins/imdb-slot",
+      "name": "TMDb",
+      "description": "Shows movie/TV show details above search results.",
+      "version": "1.0.0",
+      "type": "slot"
+    }
+  ],
+  "themes": [
+    {
+      "path": "themes/zen",
+      "name": "Zen",
+      "description": "A minimalist calming theme.",
+      "version": "1.0.0"
+    }
+  ]
+}
