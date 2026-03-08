@@ -65,6 +65,12 @@
       "name": "Catppuccin",
       "description": "Mocha (blue), Latte (light blue), Rose (red/coral), Peach (orange/amber).",
       "version": "1.0.0"
+    },
+    {
+      "path": "themes/pokemon",
+      "name": "Pokemon",
+      "description": "Starter-inspired: Pikachu (yellow), Bulbasaur (green), Charmander (orange), Squirtle (blue).",
+      "version": "1.0.0"
     }
   ],
   "engines": [
