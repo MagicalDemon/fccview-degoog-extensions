@@ -1,4 +1,4 @@
-const cheerio = require("cheerio");
+import cheerio from "cheerio";
 
 const FEED_TIMEOUT_MS = 10_000;
 const CACHE_TTL_MS = 5 * 60 * 1000;
@@ -305,7 +305,7 @@ function renderResultsHtml(items, page, query) {
 }
 
 const command = {
-  name: "Mobile RSS Feeds",
+  name: "Home RSS Feeds",
   description: "RSS/Atom news feed reader with home page integration",
   trigger: "rss",
   aliases: ["news", "feed"],
