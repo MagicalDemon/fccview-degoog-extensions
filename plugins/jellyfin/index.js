@@ -32,7 +32,6 @@ const EPISODE_PATTERNS = [
 ];
 
 const SEASON_PATTERNS = [
-  // "series season 1" or "series s01"
   /^(.+?)\s+season\s+(\d+)$/i,
   /^(.+?)\s+s(\d+)$/i,
 ];
