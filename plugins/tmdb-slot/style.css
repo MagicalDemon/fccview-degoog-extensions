@@ -10,7 +10,6 @@
   gap: 1.25rem;
   margin-bottom: 0.75rem;
   padding-bottom: 0.75rem;
-  border-bottom: 1px solid var(--border-light);
 }
 
 .imdb-poster {
@@ -20,7 +19,6 @@
   border-radius: 12px;
   overflow: hidden;
   background: var(--bg-light);
-  border: 1px solid var(--border-light);
 }
 
 .imdb-poster img {
@@ -130,7 +128,6 @@
   width: 5.5rem;
   padding: 0;
   background: var(--bg-light);
-  border: 1px solid var(--border-light);
   border-radius: 8px;
   overflow: hidden;
   text-align: center;
@@ -206,7 +203,6 @@
 .imdb-hero--compact {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid var(--border-light);
 }
 
 .imdb-hero--compact .imdb-poster {
@@ -254,11 +250,6 @@
   height: 6px;
 }
 
-.imdb-filmography-scroll::-webkit-scrollbar-track {
-  background: var(--border-light);
-  border-radius: 3px;
-}
-
 .imdb-filmography-scroll::-webkit-scrollbar-thumb {
   background: var(--text-secondary);
   opacity: 0.3;
@@ -288,7 +279,6 @@
   border-radius: 8px;
   overflow: hidden;
   background: var(--bg-light);
-  border: 1px solid var(--border-light);
   margin-bottom: 0.35rem;
 }
 
@@ -308,7 +298,6 @@
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--text-secondary);
-  background: var(--border-light);
 }
 
 .imdb-movie-title {
@@ -354,7 +343,6 @@
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
   padding-bottom: 1px;
-  border-bottom: 1px solid var(--border-light);
 }
 
 .tmdb-tab-bar::-webkit-scrollbar {
@@ -385,7 +373,6 @@
 }
 
 .tmdb-accordion {
-  border: 1px solid var(--border-light);
   border-radius: 8px;
   margin-bottom: 0.5rem;
   overflow: hidden;
